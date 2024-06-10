@@ -1,0 +1,194 @@
+email: 
+password: 
+
+disableAntiLock: false
+
+remote: false
+
+experienceLevel:
+  internship: false
+  entry: false
+  associate: false
+  mid-senior level: false
+  director: false
+  executive: false
+
+jobTypes:
+  full-time: false
+  contract: false
+  part-time: true
+  temporary: false
+  internship: false
+  other: false
+  volunteer: false
+
+date:
+  all time: true
+  month: false
+  week: false
+  24 hours: false
+
+positions:
+  - Software Engineer
+  - Software Developer
+#  - DevOps Engineer
+#  - Backend Engineer
+#  - Frontend Engineer
+#  - Python Developer
+#  - Data Scientist
+#  - Full Stack Developer
+
+locations:
+  #  - Shanghai, China
+  #  - Beijing, China
+  #  - Guangzhou, China
+  #  - Shenzhen, China
+  - Singapore
+#  - Tokyo, Japan
+#  - Malaysia
+#  - Shanghai, China
+# - Alberta, Canada
+# - Auckland, New Zealand
+# - Dubai, United Arab Emirates
+# - Kuala Lumpur, Malaysia
+# - London, United Kingdom
+# - Melbourne, Australia
+# - Abu Dhabi, United Arab Emirates
+# - Amsterdam, Netherlands
+# - Bangkok, Thailand
+
+
+distance: 1000
+
+outputFileDirectory: F:\LinkedIn-Easy-Apply-Bot\data\
+
+companyBlacklist: null
+  #- company
+  #- company2
+
+titleBlacklist: null
+  #- word1
+  #- word2
+
+uploads:
+  resume: F:\LinkedIn-Easy-Apply-Bot\data\SAKIB-SDE.pdf
+  # Cover letter is optional
+  #coverLetter: C:\Users\myDirectory\CoverLettter.pdf
+
+
+  # ------------ QA section -------------------
+
+  # ------------ Additional parameters: checkboxes ---------------
+checkboxes:
+  # Do you have a valid driver's license? (yes/no checkbox)
+  driversLicence: true
+  # Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? (yes/no checkbox)
+  # This is relative to the location and your citizenship applying above, and same with legallyAuthorized.
+  requireVisa: false
+  # Are you legally authorized to work in COUNTRY? (yes/no checkbox)
+  legallyAuthorized: true
+  # We must fill this position urgently. Can you start immediately? (yes/no checkbox)
+  urgentFill: true
+  # Are you comfortable commuting to this job's location? (yes/no checkbox)
+  commute: true
+  # Have you completed the following level of education: DEGREE TYPE? (yes/no checkbox)
+  degreeCompleted:
+    - High School Diploma
+    - Bachelor's Degree
+    - Master's Degree
+    # - Master of Business Administration
+    # - Doctor of Philosophy
+    # - Doctor of Medicine
+    # - Doctor of Law
+    # Are you willing to undergo a background check, in accordance with local law/regulations?
+  backgroundCheck: true
+
+# ------------ Additional parameters: univeristyGpa ---------------
+universityGpa: 3.95
+
+# ------------ Additional parameters: languages ---------------
+languages:
+  english: Professional # None, Conversational, Professional, Native or bilingual
+  chinese: Conversational
+  Bengali: Native or bilingual
+
+# ------------ Additional parameters: years of INDUSTRY experience ---------------
+# How many years of TECHNOLOGY experience do you currently have? (whole numbers only)
+industry:
+  # normal ones
+  Accounting/Auditing: 0
+  Administrative: 0
+  Advertising: 0
+  Analyst: 0
+  Art/Creative: 0
+  Business Development: 0
+  Consulting: 0
+  Customer Service: 0
+  Distribution Design: 0
+  Education: 0
+  Engineering: 0
+  Finance: 0
+  General Business: 0
+  Health Care Provider: 0
+  Human Resources: 0
+  Information Technology: 0
+  Legal: 0
+  Management: 0
+  Manufacturing: 0
+  Marketing: 0
+  Public Relations: 0
+  Purchasing: 0
+  Product Management: 0
+  Project Management: 0
+  Production: 0
+  Quality Assurance: 0
+  Research: 0
+  Sales: 0
+  Science: 0
+  Strategy/Planning: 0
+  Supply Chain: 0
+  Training: 0
+  Writing/Editing: 0
+  # end normal ones
+  # put your custom ones here
+  #C++: 0
+  Python: 4
+  JavaScipt: 3
+  Amazon Web Services: 3
+  React: 3
+  Django: 3
+
+  # default to put for any skill that you did not list
+  default: 0
+  # end custom ones
+
+
+  # ------------ Additional parameters: years of technology experience ---------------
+  # How many years of work experience do you have using TECHNOLOGY? (whole numbers only)
+technology:
+  python: 4
+  selenium: 2
+  Unix: 3
+  SQL: 4
+  # default to put for any skill that you did not list
+  default: 0
+# ------------ Additional parameters: personal info ---------------
+personalInfo:
+  First Name: MD SAKIB
+  Last Name: RAHMAN
+  Phone Country Code: China # See linkedin for your country code, must be exact
+  Mobile Phone Number: 8616621561417
+  Street address: 800 Dongchuan Road, Minhang District, Shanghai, China
+  City: Shanghai
+  State: Shanghai
+  Zip: 200240
+  Linkedin: https://www.linkedin.com/in/sakibrahman
+  Website: None # github/website is interchangable here
+
+# ------------ Additional parameters: USA employment crap ---------------
+eeo:
+  gender: Male
+  race: None
+  vetran: None
+  disability: None
+  citizenship: Bangladesh
